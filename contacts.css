@@ -1,0 +1,45 @@
+body {
+    padding: 24px;
+    background-color: #f5f9fc;
+}
+#page-title{
+    font-size: 24px;
+    color: #2805f6;
+}
+#input-wrapper {
+    margin: 24px 0;
+}
+input {
+    padding: 5px;
+    width:240px;
+    max-width: 100%;
+}
+button{
+    padding: 6px 12px;
+    background-color: lightcoral;
+    color: white;
+}
+.contact-entry{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px;
+}
+.name-initial{
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+.full-name{
+    font-size: 24px;
+    margin-left: 8px;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 6px;
+    flex-grow: 1;
+}
